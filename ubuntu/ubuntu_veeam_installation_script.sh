@@ -1,6 +1,6 @@
 chmod +x ./ubuntu_veeam_installation_script.sh
 sudo apt update
-sudo apt install git
+sudo apt install -y git
 git clone https://github.com/DominikGold1/veeam-release
 cd veeam-release/ubuntu/
 sudo apt-get install lvm2
