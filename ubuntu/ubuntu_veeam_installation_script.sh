@@ -4,4 +4,4 @@ sudo apt install git
 git clone https://github.com/DominikGold1/veeam-release
 cd veeam-release/ubuntu/
 sudo dpkg -i ./veeam-release* && sudo apt-get update
-sudo apt-get install veeam
+sudo apt-get -y install veeam
